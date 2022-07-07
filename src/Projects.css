@@ -7,3 +7,13 @@
     justify-content: center;
     padding-bottom: 1em;
 }
+#card{
+    color: #121212;
+}
+#cardTitle{
+    text-align: center;
+}
+#cardBUtton{
+    display: flex;
+    justify-content: center;
+}
