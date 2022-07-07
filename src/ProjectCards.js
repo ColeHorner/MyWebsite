@@ -10,7 +10,7 @@ function ProjectCards(props) {
         <Card.Text>
           {props.description}
         </Card.Text>
-        <Button variant="dark">Check out my code</Button>
+        <Button variant="dark">Repo</Button>
       </Card.Body>
     </Card>
   );

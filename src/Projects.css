@@ -1,11 +1,9 @@
-#projectsText{
+.projectsText{
     color: white;
     text-align: center;
 }
-#row{
-    padding-bottom: 1em;
-}
-#col{
+.col{
     display: flex;
     justify-content: center;
+    padding-bottom: 1em;
 }

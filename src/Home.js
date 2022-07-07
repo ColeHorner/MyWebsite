@@ -12,9 +12,12 @@ function Home() {
             <Image fluid roundedCircle src={test} />
           </Col>
           <Col xs={8}>
-            <h2 class='infoText'>
-              Test
-            </h2>
+            <h3 class='infoText'>
+              Hello!
+            </h3>
+            <p class='infoText'>
+              I'm Cole welcome to my website. I'm very passionate about health, fitness, nutrition, all that jazz. I'm currently a software developer at Cuna Mutual Group.
+            </p>
           </Col>
         </Row>
       </Container>
