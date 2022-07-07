@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Nav } from "react-bootstrap";
 import './ProjectCards.css';
 
 function ProjectCards(props) {
@@ -10,7 +10,9 @@ function ProjectCards(props) {
         <Card.Text>
           {props.description}
         </Card.Text>
-        <Button variant="dark">Repo</Button>
+        <Nav.Link href="https://github.com/ColeHorner/HomeMatch">
+          <Button  variant="dark">Repo</Button>
+        </Nav.Link>
       </Card.Body>
     </Card>
   );
