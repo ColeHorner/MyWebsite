@@ -1,7 +1,5 @@
 import projectImage1 from "../images/axolotyl.jpg";
 import projectImage2 from "../images/bird.jpg";
-import projectImage3 from "../images/raccoon.jpg";
-import projectImage4 from "../images/dog.jpg";
 import me from "../images/me.jpg";
 
 
@@ -14,14 +12,10 @@ export const homeText = 'I\'m Cole! Welcome to my website. I\'m currently a soft
                         'or be part of a business that incorporates my passions and share them with many people through my work. My dream would be ' + 
                         'to be financially independent and explore the world full time!'
 
-export const projectTitles = ['Home Match','My Website', 'blah blah', 'test']
-export const projectImages = [projectImage1, projectImage2, projectImage3, projectImage4]
-export const projectDescriptions = ['App to make finding a home easy and fun.',
-                            'Web app to display my projects and information about me',
-                            'Blah Blah Blah Blah Blah',
-                            'Test test test test test']
+export const projectTitles = ['Home Match','My Website']
+export const projectImages = [projectImage1, projectImage2]
+export const projectDescriptions = ['App to make finding a home fun and easy.',
+                            'Web app to display my projects and information about me.',]
 export const projectLinks = ['https://github.com/ColeHorner/HomeMatch',
-                            'https://github.com/ColeHorner/MyWebsite',
-                            'https://www.google.com/',
-                            'https://www.youtube.com/']
+                            'https://github.com/ColeHorner/MyWebsite',]
                             
