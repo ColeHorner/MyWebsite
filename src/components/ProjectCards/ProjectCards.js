@@ -7,10 +7,8 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Img variant="top" src={props.image} alt="picture" />
-        <Card.Text>
-          {props.description}
-        </Card.Text>
-        <Nav.Link href="https://github.com/ColeHorner/HomeMatch">
+        <Card.Text> {props.description} </Card.Text>
+        <Nav.Link href={props.link}>
           <Button  variant="dark">Repo</Button>
         </Nav.Link>
       </Card.Body>

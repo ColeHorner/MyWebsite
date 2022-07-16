@@ -1,7 +1,6 @@
-import './App.css';
-import Header from './Header.js';
-import Projects from './Projects';
-import Home from './Home';
+import Header from '../Header/Header';
+import Projects from '../Projects/Projects';
+import Home from '../Home/Home';
 import { Routes, Route } from 'react-router-dom';
 
 function App(){
